@@ -7,11 +7,11 @@ body {
 	box-sizing: border-box;
 }
 
-#box {
+.box {
 	height: 250;
 	width: 100px;
 	padding: 2px;
-	margin: 10px;
+	/* margin: 10px; */
 	border: 2px solid red;
 	background-color: white;
 	display: inline-block;
@@ -24,5 +24,8 @@ body {
 
 #theBox {
 	background-color: #273;
+	position: relative;
+	top: 20px;
+	left: 30px;
 }
 
